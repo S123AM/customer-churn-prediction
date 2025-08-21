@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache/compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / Editor specific
+*.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Logs & Environment files
+*.log
+.env
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+
+# Reports / Generated images
+reports/*.csv
+reports/images/*.png
+reports/images/*.jpg
+
+# Data (optional: exclude raw data if large)
+data/*.csv
+data/*.xlsx
+
+# VSCode / IDE settings
+.vscode/
+.idea/
